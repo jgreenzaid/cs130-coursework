@@ -1,0 +1,215 @@
+/*
+B'dazzled blue - #3D5A80
+Burnt sienna - #EE6c4D
+Dark sky blue - #98C1D9
+Light cyan - #E0FBFC
+Gunmetal - #293241
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+    box-sizing: border-box;
+    /* background: #EEE; */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400;500;600;900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  padding: 80px;
+  background: #E0FBFC;
+  color: #293241;
+  line-height: 35px;
+}
+
+/* MAIN SECTION */
+
+.main h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+.main h2 {
+  font-size: 30px;
+}
+.main p {
+  color: #293241;
+}
+.main h1, .main h2 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  line-height: .75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  margin-left: 40px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+}
+p {
+  margin-left: 40px;
+}
+.main {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.main a {
+  color: #EE6c4D
+}
+
+/* PROJECT SECTION */
+
+.projects {
+  margin: 0 auto;
+  padding: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #EE6c4D
+}
+.projects h2, .projects p {
+  color: #E0FBFC;
+}
+.projects a {
+  color: #293241
+}
+.img1, .img2, .img3 {
+  height: 250px;
+  width: 280px;
+  padding: 30px;
+}
+
+.project1, .project2, .project3 {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   grid-template-areas:
+      "a b c"
+      "lynda women wire"
+      "p1 p2 p3";
+  row-gap: 0px;
+  column-gap: 0px;
+}
+.img1 {
+  grid-area: c;
+}
+.img2 {
+  grid-area: c;
+}
+.img3 {
+  grid-area: c;
+}
+.lynda {
+  grid-area: a;
+  width: 170px;
+  height: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+.women {
+  grid-area: a;
+  width: 170px;
+  height: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+.wire {
+  grid-area: a;
+  width: 170px;
+  height: 30px;
+  text-align: center;
+  margin-left: 40px;
+}
+.projects h3 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  color: #3D5A80;
+  font-size: 25px;
+  font-weight: 900;
+}
+.projects p {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+/* WORK SECTION */
+.work {
+  background: #98C1D9;
+  padding: 5px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.work h2, .work h3, .work p {
+  color: #293241
+}
+.work a {
+  color:#EE6c4D;
+}
+.job-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+  padding: 40px;
+}
+.job-highlights h3 {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+}
+.job-details {
+  border: dotted 2px #3D5A80;
+}
+
+/* Education SECTION */
+.edu {
+  background: #3D5A80;
+  padding: 50px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.edu h2, .edu h3, .edu p {
+  color: #E0FBFC
+}
+
+/* end */
+.end {
+  background: #293241;
+  color: #98C1D9;
+  padding: 5px;
+}
+.end h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 900;
+}
+.end a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #EE6c4D;
+}
